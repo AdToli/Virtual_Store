@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-board {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(33, 37, 41);
+  box-shadow: 0 -3px 31px 0 rgba(0, 0, 0, .05), 0 6px 20px 0 rgba(0, 0, 0, .02);
+  z-index: 10;
+}
+
+.auth-wrapper.auth-v1 {
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.auth-wrapper {
+  display: flex;
+  flex-basis: 100%;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh)*100);
+  width: 100%;
+}
+
+.auth-wrapper .brand-logo {
+  margin: 1rem 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.auth-wrapper.auth-v1 .auth-inner {
+  max-width: 400px;
+}
+
+.auth-wrapper .auth-inner {
+  width: 100%;
+  position: relative;
+}
+
+.card {
+  border: none;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px 20px rgba(18, 38, 63, .0813726);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(34, 41, 47, 0.125);
+  border-radius: 0.428rem;
+}
+
+.auth-wrapper .card-body {
+  padding: 2.5rem 2rem;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.form-control:focus, .form-control:active {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.dropdown-item {
+  padding: 0.05rem 1.0rem;
+  clear: both;
+  text-align: inherit;
+  background-color: initial;
+  border: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  z-index: 1000;
+}
+
+
+.mr-50, .mx-50 {
+  margin-right: 0.5rem!important;
+}
+
+.misc-wrapper {
+  display: flex;
+  flex-basis: 100%;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo {
+  left: 2rem;
+}
+
+.misc-wrapper .brand-logo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 2rem;
+}
+
+.misc-wrapper .brand-logo img {
+  max-width: 150px;
+}
+
+.misc-wrapper .misc-inner {
+  position: relative;
+  max-width: 750px;
+}
+
+.user-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-item-responsive {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
